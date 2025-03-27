@@ -1,0 +1,34 @@
+html{background-image:url('background.jpg');background-repeat:no-repeat;background-attachment:fixed;background-size:100% 100%;font-family: 'Playfair Display SC', serif;}
+h1{text-align:left;font-weight:bold;padding-left:15px;user-select:none;background:-webkit-linear-gradient(grey, black);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+
+
+.data{position:fixed;bottom:15px;left:15px;width:50%;height:45%;background-color:rgba(54, 60, 50, 0.8);overflow-y:auto;border:10px solid rgba(255, 255, 255, 0.4);border-radius:20px;padding:5px;}
+.data table{width:95%;color:white;margin:auto;border:3px solid #EDC591;user-select:none;}
+.data th, .data td{border:3px solid #EDC591;color:#1F2020;}
+.data th{background-color:#F3D060;}
+.data td{color:white;padding:10px;}
+.data button{display:block;background-image:linear-gradient(45deg, grey, #F3D060);width:30px;height:30px;font-size:10px;border:2px solid white;border-radius:15px;font-weight:bold;color:white;}
+.data button:hover{cursor:pointer;background-image:linear-gradient(45deg, #F3D060, #F3D060);}
+
+.Clean{background-color:#364935;}
+.Risky{background-color:#4E5851;}
+.Unhealthy{background-color:#A50011;}
+
+.surveillance{position:fixed;top:15px;right:15px;width:350px;height:auto;background-color:rgba(13, 51, 70, 0.6);border:10px solid rgba(255, 255, 255, 0.4);border-radius:20px;padding:5px;}
+.surveillance img{display:block;width:320px;height:240px;margin:auto;border:3px solid #EDC591;border-radius:5px;padding:5px;transition:1s;}
+.surveillance img:hover{cursor:crosshair;border:3px solid orange;padding:10px;transition:1s;}
+.surveillance figcaption{display:block;margin-bottom:10px;margin-top:5px;text-align:center;color:#EDC591;transition:1s;}
+.surveillance img:hover ~ figcaption{color:orange;transition:1s;}
+
+/* Width */
+::-webkit-scrollbar {width:5px;height:5px;}
+/* Track */
+::-webkit-scrollbar-track {background-color:#0D3346;}
+/* Button */
+::-webkit-scrollbar-button{background-color:#EDC591;height:5x;width:5px;}
+::-webkit-scrollbar-button:hover{background-color:white;}
+/* Handle */
+::-webkit-scrollbar-thumb {background-color:#F3D060;}
+::-webkit-scrollbar-thumb:hover {background-color:white;}
+/* Corner */
+::-webkit-scrollbar-corner{background-color:#4d79ff;}
